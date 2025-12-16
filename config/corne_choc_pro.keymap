@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC   |        | ENT   |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1        &kp N2           &kp N3        &kp N4        &kp N5          &kp LCTRL  &kp RCTRL  &kp N6    &kp N7    &kp N8     &kp N9     &kp N0  &kp BSPC
-&kp LCTRL  &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LALT   &kp RALT   &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &trans  &trans
-&kp LSHFT  &bt BT_CLR    &rgb_ug RGB_TOG  &sys_reset    &bootloader   &studio_unlock                        &trans    &trans    &trans     &trans     &trans  &trans
-                                          &kp LGUI      &trans        &kp SPACE                             &kp LGUI  &trans    &kp SPACE
+&kp TAB    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5             &trans    &kp LS(LC(LEFT_GUI))  &kp N6          &kp N7    &kp N8          &kp N9        &kp N0           &kp BSPC
+&kp LCTRL  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)         &kp LALT  &kp RALT              &trans          &kp DOWN  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp GRAVE
+&kp LSHFT  &rgb_ug RGB_TOG   &bootloader       &studio_unlock    &kp UP_ARROW      &kp LG(SPACE)                                      &bt BT_CLR_ALL  &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp RIGHT_SHIFT
+                                               &kp LGUI          &trans            &kp LC(LG(SPACE))                                  &kp ENTER       &trans    &kp RIGHT_GUI
             >;
         };
 
