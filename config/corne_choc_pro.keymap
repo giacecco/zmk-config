@@ -5,6 +5,7 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
@@ -51,7 +52,7 @@
 
             bindings = <
 &kp TAB    &kp N1            &kp N2            &kp N3            &kp N4            &kp N5             &trans    &kp LS(LC(LEFT_GUI))  &kp N6          &kp N7    &kp N8          &kp N9        &kp N0           &kp BSPC
-&kp LCTRL  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)         &kp LALT  &kp RALT              &trans          &kp DOWN  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp GRAVE
+&kp LCTRL  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(N5)         &kp LALT  &kp RALT              &bl BL_OFF      &kp DOWN  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp GRAVE
 &kp LSHFT  &rgb_ug RGB_TOG   &bootloader       &studio_unlock    &kp UP_ARROW      &kp LG(SPACE)                                      &bt BT_CLR_ALL  &kp HOME  &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp RIGHT_SHIFT
                                                &kp LGUI          &trans            &kp LC(LG(SPACE))                                  &kp ENTER       &trans    &kp RIGHT_GUI
             >;
